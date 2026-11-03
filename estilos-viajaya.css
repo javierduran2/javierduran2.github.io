@@ -25,10 +25,10 @@ body { margin: 0; font-family: Georgia, serif; font-size: 13px; background: #fff
 .mm { background: #e5edf9; color: #000; width: 16px; height: 16px; text-align: center; cursor: pointer; margin-left: 4px; font-size: 11px; }
 .go { background: #0071c2; color: #fff; padding: 12px 22px; cursor: pointer; font-weight: bold; font-size: 15px; display: inline-block; }
 .err { color: red; font-size: 12px; padding: 4px 20px; }
-.opt { padding: 8px 20px; color: #aaa; font-size: 11px; display: flex; align-items: center; gap: 6px; }
+.opt { padding: 8px 20px; color: #000; font-size: 11px; display: flex; align-items: center; gap: 6px; }
 .chk { width: 14px; height: 14px; border: 1px solid #ccc; }
 .chk.c { background: #ddd; }
-.promo { margin: 12px 20px; padding: 6px; background: #fff7d6; color: #f1c40f; font-weight: bold; font-size: 16px; animation: blink 1s step-start infinite; display: inline-block; }
+.promo { margin: 12px 20px; padding: 6px; background: #fff7d6; color: #000; font-weight: bold; font-size: 16px; animation: blink 1s step-start infinite; display: inline-block; }
 @keyframes blink { 50% { opacity: 0; } }
 .banner { display: block; margin: 0 20px 10px; width: 1060px; height: 150px; }
 .sec { padding: 14px 20px; }
@@ -51,7 +51,7 @@ body { margin: 0; font-family: Georgia, serif; font-size: 13px; background: #fff
 .dest img { width: 190px; height: 200px; display: block; }
 .dn { position: absolute; bottom: 10px; left: 10px; color: #ddd; font-weight: bold; font-size: 15px; }
 p { text-align: justify; line-height: 1.1; font-size: 11px; color: black; }
-a { color: #0000ff; text-decoration: none; }
+a { color: #0000ff; text-decoration: none; text-decoration: underline;}
 table { border-collapse: collapse; width: 700px; }
 td { border: 1px solid #ddd; padding: 6px; color: black; }
 select, input { padding: 6px; font-size: 12px; }
@@ -65,7 +65,7 @@ select { width: 200px; border: 1px solid #ddd; }
 .cols div div { padding: 3px 0; }
 .ft { font-weight: bold; font-size: 12px; color: black; }
 .copy { margin-top: 20px; }
-.cuenta { color: #d9d9d9; font-size: 12px; }
+.cuenta { color: #000; font-size: 12px; }
 .pop { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,.55); z-index: 20; }
 .popb { background: #fff; width: 380px; margin: 160px auto; padding: 24px; position: relative; }
 .popb .st2 { color: #7d9fd6; }
